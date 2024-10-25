@@ -26,6 +26,9 @@ WHERE
     AND 
     combination LIKE '%a';
 ```
+Output:
+![image](https://github.com/user-attachments/assets/a9c512ef-b9a1-4657-b05b-7f4345f42fcc)
+
 ### Example 2
 To find 4-letter names starting with 'A', ending with 'A', but not ending with 'la', use this query:
 ```sql
@@ -39,7 +42,13 @@ WHERE
 	AND 
 	combination NOT LIKE '%la';
 ```
+Output:
+![image](https://github.com/user-attachments/assets/6f5e2042-c09c-4a7c-a2ca-689a18c30ce9)
+
 Feel free to adjust any part of this further if you have specific preferences!
+
+## Caution
+Generating a database of 5-letter combinations can create a file size of nearly 180MB. Please consider your disk space before running the script with higher letter counts.
 
 ## Collaboration
 I am open to collaboration on this project. If you have ideas for improvements or would like to build on this work, feel free to reach out.
