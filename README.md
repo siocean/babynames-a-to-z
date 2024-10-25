@@ -27,6 +27,7 @@ WHERE
     combination LIKE '%a';
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/a9c512ef-b9a1-4657-b05b-7f4345f42fcc)
 
 ### Example 2
@@ -43,6 +44,7 @@ WHERE
 	combination NOT LIKE '%la';
 ```
 Output:
+
 ![image](https://github.com/user-attachments/assets/6f5e2042-c09c-4a7c-a2ca-689a18c30ce9)
 
 Feel free to adjust any part of this further if you have specific preferences!
